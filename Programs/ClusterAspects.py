@@ -82,7 +82,7 @@ def prepData(category):
     #explode aspects
     spread_df = df.select("*", F.posexplode("indiv_aspects").alias("pos", "split_aspect"))
 
-    # get unique by category and split aspect - remove blank aspects
+    # get unique by category/review and split aspect - remove blank aspects
     unique_cat_aspect = spread_df.groupBy(*('asin', "reviews", "main_cat", "categories", "scores", "split_aspect", "idx")).count()\
         .withColumn("split_aspect", F.lower(F.col("split_aspect")))\
         .withColumn("split_aspect", rmStop_udf(F.col("split_aspect")))\
