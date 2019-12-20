@@ -9,4 +9,9 @@ The objective of this project is to leverage free text product reviews to better
 
 All code can be found in programs/ folder
 
+### Video Presentation and Report
+https://www.youtube.com/watch?v=jHlf1E2q7kU
+
+Report is found at Report/Report.docx
+
 ### [[Complete README to be added once project is complete]]
