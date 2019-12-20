@@ -9,4 +9,4 @@ The objective of this project is to leverage free text product reviews to better
 
 All code can be found in programs/ folder
 
-### [[Complete README to be added once complete]]
+### [[Complete README to be added once project is complete]]
