@@ -8,3 +8,5 @@ The objective of this project is to leverage free text product reviews to better
 * Ranking product aspect: a regression model and expectation maximization variant are then applied to compute the importance of each aspect such that we can rank them.  The two models are compared
 
 All code can be found in programs/ folder
+
+### [[Complete README to be added once complete]]
